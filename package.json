@@ -1,0 +1,48 @@
+{
+  "name": "vue-zoomster",
+  "version": "1.1.4",
+  "description": "A Vue 2 component for image zoom, rotate, and download",
+  "main": "dist/vue-zoomster.umd.js",
+  "module": "dist/vue-zoomster.es.js",
+  "files": [
+    "dist",
+    "index.mjs",
+    "src/assets",
+    "src/zoomster.css",
+    "README.md"
+  ],
+  "style": "dist/ZoomSter.css",
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build --config vite.config.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "zoom",
+    "image-zoom",
+    "zoombox",
+    "rotate",
+    "download",
+    "viewer",
+    "vue-component"
+  ],
+  "author": "Radhif Azli Nurfahriza",
+  "license": "MIT",
+  "devDependencies": {
+    "gsap": "^3.13.0",
+    "vite": "^4.4.9",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "peerDependencies": {
+    "gsap": "^3.0.0",
+    "vue": "^2.6.0 || ^2.7.0"
+  }
+}
