@@ -34,6 +34,14 @@
   ],
   "author": "Radhif Azli Nurfahriza",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhifazl/vue-zoomster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/radhifazl/vue-zoomster/issues"
+  },
+  "homepage": "https://github.com/radhifazl/vue-zoomster#readme",
   "devDependencies": {
     "gsap": "^3.13.0",
     "vite": "^4.4.9",
